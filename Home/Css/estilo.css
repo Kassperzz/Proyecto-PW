@@ -1,0 +1,48 @@
+li:hover{
+    background-color: #0B6E41;
+    border-radius: 20px;
+}
+
+.espacio {
+
+    margin-left: 60%;
+}
+
+@media (max-width:992px){
+    .espacio{
+        margin-left: 0px;
+    }
+}
+#animated-image{
+    width: 100%;
+    height: auto;
+    position: relative;
+    animation: slide 5s linear infinite;
+}
+body{
+    background-color: aqua;
+    height: 800px;
+    
+}
+
+.bordes{
+    border-radius: 30px;
+    border-style: solid;
+    border-color: rgb(77,77,77);
+    height: 500px;
+    margin-left: 6.7%;
+}
+
+.contcarou{
+    margin-top: 100px;
+    background-color:#1c1f22;
+    height: 700px;
+    width: 750px;
+    border-radius: 10%;
+}
+.contcarou2{
+    margin-top: 25px;
+    height: 650px;
+    width: 650px;
+    border-radius: 10%;
+}
