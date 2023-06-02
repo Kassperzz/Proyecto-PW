@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso Cliente</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <center><h1>Ingreso Cliente</h1></center>
+    <form id="myForm" method="post" action="">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" required>
+
+        <label for="rut">RUT</label>
+        <small>Formato xx.xxx.xxx-x</small>
+        <input type="text" name="rut" id="rut" pattern="\d{1,2}\.\d{3}.\d{3}[-][0-9kK]{1}" required>
+        
+        <label for="modelo">Modelo Vehiculo</label>
+        <input type="text" name="modelo" id="modelo" required>
+        
+        <label for="telefono">Telefono</label>
+        <small>Solo numeros, sin espacios ni guiones</small>
+        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" required>
+
+        <label for="direccion">Direccion</label>
+        <input type="text" name="direccion" id="direccion" required>
+
+        <label for="comuna">Comuna</label>
+        <input type="text" name="comuna" id="comuna" required>
+
+        <center><input type="submit" value="Enviar"></center>
+        <script src="../js/validaciones.js"></script>
+    </form>
+</body>
+</html>
