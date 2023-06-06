@@ -19,8 +19,3 @@ li:hover{
     position: relative;
     animation: slide 5s linear infinite;
 }
-body{
-    background-color: aqua;
-    height: 800px;
-    
-}
