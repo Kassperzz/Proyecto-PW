@@ -24,25 +24,3 @@ body{
     height: 800px;
     
 }
-
-.bordes{
-    border-radius: 30px;
-    border-style: solid;
-    border-color: rgb(77,77,77);
-    height: 500px;
-    margin-left: 6.7%;
-}
-
-.contcarou{
-    margin-top: 100px;
-    background-color:#1c1f22;
-    height: 700px;
-    width: 750px;
-    border-radius: 10%;
-}
-.contcarou2{
-    margin-top: 25px;
-    height: 650px;
-    width: 650px;
-    border-radius: 10%;
-}
