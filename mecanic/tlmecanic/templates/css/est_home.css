@@ -1,0 +1,28 @@
+li:hover{
+    background-color: #0B6E41;
+    border-radius: 20px;
+}
+
+.espacio {
+
+    margin-left: 60%;
+}
+
+@media (max-width:992px){
+    .espacio{
+        margin-left: 0px;
+    }
+}
+#animated-image{
+    width: 100%;
+    height: auto;
+    position: relative;
+    animation: slide 5s linear infinite;
+}
+body{
+    height: 800px;
+}
+
+.card-group{
+    height: 100px;
+}
