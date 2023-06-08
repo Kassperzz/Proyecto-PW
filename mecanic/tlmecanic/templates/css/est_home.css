@@ -22,7 +22,21 @@ li:hover{
 body{
     height: 800px;
 }
+.contcarou{
+    width: 900px;
+    height: 900px;
+    position: center;
+    border-style: black solid;
+    border-radius: 15%;
+    border-width: 1px;
+}
+.imgcarou{
+    margin: 0px,50px,0px,50px;
+    height: 740px;
+    width: 900px;
+    position: center;
 
+}
 .card-group{
     height: 100px;
 }

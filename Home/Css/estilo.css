@@ -19,3 +19,8 @@ li:hover{
     position: relative;
     animation: slide 5s linear infinite;
 }
+.imgcarou{
+    width: 120vph;
+    height: 740px;
+
+}
