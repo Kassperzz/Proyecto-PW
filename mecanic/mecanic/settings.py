@@ -74,7 +74,7 @@ WSGI_APPLICATION = 'mecanic.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {
+"""DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME':'mecanic',
@@ -83,6 +83,13 @@ DATABASES = {
         'HOST':'127.0.0.1',
         'PORT':'3306'
     }    
+}"""
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
 }
 
 
@@ -104,6 +111,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+AUTH_USER_MODEL= 'tlmecanic.cliente'
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
